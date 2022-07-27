@@ -5,11 +5,12 @@
  * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause
  * By Junnan Li
 '''
-import warnings
-warnings.filterwarnings("ignore")
+# Modified by Jiarui
+# import warnings
+# warnings.filterwarnings("ignore")
 
-from models.vit import VisionTransformer, interpolate_pos_embed
-from models.med import BertConfig, BertModel, BertLMHeadModel
+from .vit import VisionTransformer, interpolate_pos_embed
+from .med import BertConfig, BertModel, BertLMHeadModel
 from transformers import BertTokenizer
 
 import torch

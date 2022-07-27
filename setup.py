@@ -19,5 +19,5 @@ setup(
     install_requires=[
         "fairscale>=0.4.4"
     ],
-    include_package_data=False,
+    include_package_data=True,
 )
