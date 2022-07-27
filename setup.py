@@ -15,7 +15,7 @@ setup(
     version="1.0",
     description="",
     author="Salesforce",
-    packages=find_packages(include=["blip"]),
+    packages=find_packages(),
     install_requires=[
         "fairscale>=0.4.4"
     ],
